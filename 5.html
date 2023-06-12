@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>ACT-5</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">FHP</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="images/Özgeçmiş - Cv (1).pdf">Introduction</a></li>
+							<li><a href="ref.html">References</a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>ACT-5</h1>
+                            <span class="image main"><img src="images/aaa-security.webp" alt="" /></span>
+							<p>
+                                Triple A Model , we can say for it structure of Cyber Security. There is meaning "AAA" Authorization , Authentication , Accounting.
+								they follow each other.Controls access to computer resources, enforces policies, and audits usage. AAA and its combined 
+								processes play a major role in network management and cybersecurity by 
+								screening users and keeping track of their activity while they are connected.
+							<b>Authentication</b> : Basically checking valid user or not by using different methods (Login page , biological scanning...)
+							If the user creditials are valid and match with on system user go to level 2 , second A (Authorization)
+							<b>Authorization</b> : After the first A (Authentication) user gains some authority skills on commands. User can tell what he/she want from the system
+							with commads.So authorization is different from authentication in that authentication only checks 
+							a user's identity, whereas authorization dictates what the user is allowed to do.
+							<b>Accounting</b> : Keeps track of user activity , what he/she did inside/ what time accessing/ which files download,upload/
+							resources, network informations... System or third persons check and save what user done. 
+								
+                            </p>
+							<p>
+                                Let's give an example of AAA. I am user of a electronic bank applicaton and i need to transfer money to my friend.
+								Firstly i need to access my account on banking system by using my enterin credtials (Authentication), after that i need to give the command for trasnfering money
+								(Fill necessary areas and click send button. Authorization). Last part of the process is the Accounting. The banking system will save my datas
+								what have i done , update amount of my account , where money went ... This is accounting.
+                                <span class="image main"><img src="images/bank.PNG" alt="" /></span> <br>
+
+
+                            </p>
+                            <p>
+								<span class="image main"><img src="images/triangle.PNG" alt="" /></span> <br>	
+								I want to explain another important concept CIA Model. Especially improtant for Dbs. According to my search there is a choice 
+								<b> Confidentially , Integrity and Availability</b> Firsly why we use the CIA Model in Cyber Security. It has high level check list and effective tools in it. CIA helps about resources
+								and giving informations about system and user system is going to be better. <b>Confidentially</b> : Confidentiality indicates the effort of an organization to keep its data confidential. 
+								It involves guaranteeing 
+								that only authorized users have access to specific data so right user right data , wrong person nothing.
+								<b>Integrity</b>: integrity means ensuring that data is authentic, reliable, and has not been corrupted or tampered the main thing is consistency
+								after process data need to be safe not change. <b>Availability</b> :  information system to be reliable and useful, it should be available to 
+								authorized users when needed. Users can access the servers for 7/24 and their sensitive datas. I noticed that similar situation with NoSql dbs. NoSql Dbs have Also
+								three conditions<b>Consistency ,Partition ,Tolarance Availability </b>but in NoSql we can get 2 of them not all of them we must choose 2. I need to tell you NoSql is developing so fast.
+								There are some important tools for NoSql Dbs most populer one is the <a href="https://www.mongodb.com">MongoDB</a>. Interface is not hard , funny , support cluster. I noticed that similar 
+								situation thanks to a program which i attend recently. Datas are going from Sql to NoSql so for cyber security NoSql will be more critical point.
+								<span class="image main"><img src="images/kurs.PNG" alt="" /></span> <br>		
+								<span class="image main"><img src="images/mongo.png" alt="" /></span> <br>		
+							</p> 
+
+							<br>
+							<p>
+								Our another model is <b>STRIDE Model</b>
+								<span class="image main"><img src="images/stride.webp" alt="" /></span> <br>
+								It shows us how an attacker make plans and what are the steps of attack plan. If we can understand this plan we can make emphaty and create our plans 
+								against hackers.
+								
+								<b>Spoofing Identity</b> : Choosing a target and trying to get user informations (Social engineering is very useful here)
+								<b>Tampering</b> : After get creditials attacker tries unauthorized changing and alterind data with no permissions 						
+								<b>Repudiation</b> : Attacker hides what he/she did on system from anther users. (Secret)
+								<b>Information Disclosure</b> : Attacker tries to get , alter sensitive informations this section
+								<b>Denial of Service DoS</b> : Deny service the valid users using by huge data traffic and it makes the system slow , disconnected.
+								<b> Elevation of Privilege</b> : Attacker gains privilege access on data sets , sensitive informations.
+							</p>
+                            <p> 
+							<b>The benefits of STRIDE MODEL ;</b>	
+								<ul>
+							<li>The STRIDE Threat Model lays strong insights and vision for a larger security program.</li>
+							<li>Helps to avoid vulnerabilities and threats from an early stage</li>
+							<li>Cost-effective compared implementation to alternative threat modeling methodologies.</li>
+							</ul>
+							</p> <br>
+							<p>
+							<b>DREAD Model
+								<span class="image main"><img src="images/dread.png" alt="" /></span> <br>
+							</b>
+							The DREAD model enables analysts to rate, compare, and prioritize the threats as you seen the picture. I want to tell you one more thing
+							about DREAD Model. There are points for threats for every section as you seen above.If the total is higher than "10" It means level of risk is high.
+							<span class="image main"><img src="images/DREADR.PNG" alt="" /></span> <br>
+							</p>
+                            
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Get in touch</h2>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<input type="text" name="name" id="name" placeholder="Name" />
+										</div>
+										<div class="field half">
+											<input type="email" name="email" id="email" placeholder="Email" />
+										</div>
+										<div class="field">
+											<textarea name="message" id="message" placeholder="Message"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send" class="primary" /></li>
+									</ul>
+								</form>
+							</section>
+							<section>
+								<h2>Follow</h2>
+								<ul class="icons">
+									<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-500px"><span class="label">500px</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+							</section>
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
